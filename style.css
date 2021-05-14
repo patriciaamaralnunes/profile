@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(#d9a7c7,#fffcdc);
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ad859f;
+}
+
+h2 {
+  font-size: 35px;
+  color:  #a7d9b9;
+}
+
+p {
+  color: #ad859f;
+  font-size: 26px;
+
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #f6f6f6;
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.img-circle {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #fffcdc;
+  color: #d9a7c7;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #f0dce9;
+  color: #fffcdc;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.icon {
+  font-size: 35px;
+  color: rgb(220,220,220);
+  margin: 8px 15px;
+}
